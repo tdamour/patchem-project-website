@@ -1,0 +1,358 @@
+/************************
+	  Main.css 
+	  for 
+	  Content
+*************************/ 
+
+/************************
+	  Home 
+*************************/ 
+
+/************************
+	  JumboTron 
+*************************/ 
+#theCarousel{
+  display:flex; 
+  align-items:center; 
+  background-size:cover; 
+  background-position: 0% 25%; 
+  background-repeat:no-repeat; 
+  color:#fff; 
+  text-shadow: 3.5px 3.5px 3.5px #000; 
+  overflow:hidden; 
+}
+
+#jumbotron h2{
+	font-weight:bold; 
+	font-size:250%; 
+	margin:0; 
+	color:#fff; 
+}
+
+section .row img {
+	width:100%;
+	margin: 0 0 30px; 
+}
+
+#picRow { 
+	margin-bottom:25px; 
+	margin-top:25px; 
+	background-color:#000; 
+	color:#fff;
+	padding:5px; 
+	border: 2px solid #fff; 
+}
+#picRow img {
+	margin-top:5px; 
+}
+#picRow h2 {
+	text-align:center; 
+	font-weight:bold;
+	font-size:160%; 
+}
+#picRow p {
+	padding:10px; 
+	margin-bottom:5px; 
+}
+#volbar {
+	background-color:#000; 
+	border:2px solid #fff; 
+	padding:30px; 
+	width:100%;
+	margin:0 auto; 
+	margin-top:10px; 
+}
+
+#volbar h2{
+	text-align:center; 
+	color:#fff; 
+}
+
+#volbar p {
+	color:#fff;
+	padding:15px; 
+}
+
+/* Carousel Styling */
+.slide1{
+  background-image: url('../img/img.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide2{
+  background-image: url('../img/img.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide3{
+  background-image: url('../img/img.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide4{
+  background-image: url('../img/img.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide5{
+  background-image: url('../img/img.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-caption h1{
+  font-size: 5.4em;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: .4em;
+}
+.carousel-caption p{
+  font-size: 2em;
+}
+
+/************************
+	  About Us 
+*************************/ 
+/************************
+	  JumboTron - About  
+*************************/ 
+#jumbotron_about{
+  display:flex; 
+  align-items:center; 
+  background-image: url("../img/detroitView2.jpg"); 
+  background-size:cover; 
+  background-position: 0% 25%; 
+  background-repeat:no-repeat; 
+  color:#fff; 
+  width:100%;
+  height:500px; 
+  text-shadow: 3.5px 3.5px 3.5px #000; 
+  overflow:hidden; 
+}
+
+#jumbotron_about h2{
+	font-weight:bold; 
+	font-size:250%; 
+	margin:0; 
+	color:#fff; 
+}
+
+section .row img {
+	width:100%;
+	margin: 0 0 30px; 
+}
+
+#about_us {
+	padding:15px;
+	padding-left:35px; 
+	margin-bottom:15px;
+	background-color:#000; 
+	color:#fff; 
+	border:2px solid #fff; 
+}
+
+/************************
+	  Contact
+*************************/ 
+
+/************************
+	  JumboTron - Contact Us   
+*************************/ 
+#jumbotron_contact{
+  display:flex; 
+  align-items:center; 
+  background-image: url("../img/img.png"); 
+  background-size:cover; 
+  background-position: 0% 25%; 
+  background-repeat:no-repeat; 
+  color:#fff; 
+  width:100%;
+  height:500px; 
+  text-shadow: 3.5px 3.5px 3.5px #000; 
+  overflow:hidden; 
+}
+
+#jumbotron_contact h2{
+	font-weight:bold; 
+	font-size:250%; 
+	margin:0; 
+	color:#fff; 
+}
+
+section .row img {
+	width:100%;
+	margin: 0 0 30px; 
+}
+
+#contact_block { 
+	background-color:#000; 
+	color:#000; 
+	margin:0 auto;
+	border: 2px solid #fff;  
+}
+
+#contact_intro {
+	width:100%; 
+	color:#fff; 
+	margin:0 auto; 
+}
+
+#contact_intro h2 {
+	text-align:center; 
+}
+
+#contact_form {
+	width:100%; 
+	margin:0 auto;
+}
+
+#contact_form form {
+	margin: 0 auto; 
+	padding:20px; 
+}
+#contact_form h4 {
+	margin: 0 auto; 
+	padding:5px; 
+	color:#fff;
+	font-weight:bold; 
+	text-align:left; 
+}
+
+input[type=text],select, textarea{
+	width:100%; 
+	padding: 10px; 
+	margin: 0 auto; 
+	display:inline-block; 
+	border-radius:5px; 
+	
+}
+
+.submit{
+	background-color:#000;
+	color: #98ff98; 
+	padding:15px 30px; 
+	text-align:center; 
+	display:inline-block; 
+	font-size:125%; 
+	font-weight:bold;
+	margin: 0 auto; 
+	margin-top:15px; 
+	cursor:pointer; 
+	border:2px solid #98ff98; 
+}
+
+.submit:hover {
+	background-color:#98ff98; 
+	color:#000; 
+	border:2px solid #fff;
+}
+
+/************************
+	  Support 
+*************************/ 
+#jumbotron_support{
+  display:flex; 
+  align-items:center; 
+  background-image: url("../img/img.png"); 
+  background-size:cover; 
+  background-position: 0% 25%; 
+  background-repeat:no-repeat; 
+  color:#fff; 
+  width:100%;
+  height:500px; 
+  text-shadow: 3.5px 3.5px 3.5px #000; 
+  overflow:hidden; 
+}
+
+#jumbotron_support h2{
+	font-weight:bold; 
+	font-size:250%; 
+	margin:0; 
+	color:#fff; 
+}
+
+section .row img {
+	width:100%;
+	margin: 0 0 30px; 
+}
+
+#support_info {
+	padding:25px;
+	padding-left:35px; 
+	margin-bottom:15px;
+	background-color:#000; 
+	color:#fff; 
+	border:2px solid #fff;
+}
+
+#support_info h2 {
+	text-align:center; 
+}
+
+iframe {
+	display:block; 
+	border:none; 
+	height:80vh; /* vh is height of the viewpoft, vw is the width of the viewport*/ 
+	width:80vw;
+	margin: 0 auto; 
+	margin-bottom:15px; 
+}
+#support_form {
+	width:100%; 
+}
+
+
+
+
+/************************
+	  Organzations 
+*************************/ 
+#jumbotron_org{
+  display:flex; 
+  align-items:center; 
+  background-image: url("../img/img.png"); 
+  background-size:cover; 
+  background-position: 0% 25%; 
+  background-repeat:no-repeat; 
+  color:#fff; 
+  width:100%;
+  height:500px; 
+  text-shadow: 3.5px 3.5px 3.5px #000; 
+  overflow:hidden; 
+}
+
+#jumbotron_org h2{
+	font-weight:bold; 
+	font-size:250%; 
+	margin:0; 
+	color:#fff; 
+}
+
+section .row img {
+	width:100%;
+	margin: 0 0 30px; 
+}
+
+#map {
+	width:100%;
+	height:400px;
+}
+
+#org_info {
+	padding:25px;
+	padding-left:35px; 
+	margin-bottom:15px;
+	background-color:#000; 
+	color:#fff; 
+	border:2px solid #fff; 
+}

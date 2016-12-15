@@ -1,0 +1,98 @@
+/************************
+	Css Style File 
+		for 
+		Patchem
+*************************/ 
+/************************
+	  General  
+*************************/ 
+body {
+	font-family: "Palatino Linotype", sans-serif;
+	font-weight:300; 
+	background-color:#98ff98;
+	display:flex;
+	flex-direction:column; 
+}
+
+/************************
+	  Logo & Navbar 
+*************************/ 
+
+#nav{
+	width:100%; 
+	padding: 15px 0; 
+	background-color:#000; 
+}
+
+#navLogo, #navLink li a{
+	color:#98ff98; /* mint green color */ 
+	font-size:1.2em; 
+	width:100%; 
+}
+
+#navLogo {
+	font-size:2.1em;
+	margin-left:2px;
+	padding:15px; 
+	padding-left:15px; 
+	text-align:center; 
+}
+
+#navLink li a {
+	margin-right:35px; 
+	text-align:center;
+}
+
+#navLink li a:hover {
+	color:#000; 
+	background-color:#98ff98; 
+	font-weight:bold; 
+}
+
+
+#dropdownList {
+	background-color:#000; 
+}
+
+/************************
+	  Footer 
+*************************/ 
+#footer {
+	clear:both; 
+	min-width:100%;
+	background-color:#000; 
+	margin-top:50px;
+	margin-right:auto;
+	margin-left:auto; 
+    padding-top:30px;
+    padding-bottom:20px;
+	padding-left:0; 
+	padding-right:0; 
+	line-height:50px;
+}
+
+#copyright{
+	color:#98ff98; 
+	font-weight:bold; 
+	font-size:60%; 
+}
+
+#proud{
+	font-size:180%;
+	color:#98ff98; 	
+	font-weight:bold; 
+	letter-spacing: 5px;
+	font-style:italic; 
+	
+}
+
+#socialMedia li a i{
+	color:#98ff98; 
+}
+
+/************************
+	  Content  
+*************************/ 
+#content {
+	width:100%; 
+}
